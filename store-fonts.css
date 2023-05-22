@@ -1,1 +1,25 @@
+/* Use this code to set up the css on a membership site. Code will fix all standard code on system pages */
 
+/* ReColor Login Icon */
+
+.header-row path, .header-row circle {
+	stroke: #ffffff!important;
+}
+
+/* Replace with body font */
+.signin-button  .text{
+	font-family: 'Basic';
+}
+
+.filter-categories, .product-badge, .filter-lane>div, .f-left, .subtotal, .subtotal-price{
+	font-family: 'Basic';
+}
+
+#upperPriceRange, #lowerPriceRange{
+	font-family: 'Basic';
+}
+
+/* Replace with Heading font */
+h1, h2, h3, h4, h5, h6, .add-to-cart, .theme-button, .btn {
+	font-family: "Righteous"!important;
+}
