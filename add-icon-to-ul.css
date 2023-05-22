@@ -1,0 +1,16 @@
+.text-widget-content ul {
+  list-style: none!important;
+  padding: 0;
+}
+.text-widget-content li {
+  padding-left: 1.3em;
+  padding-bottom: 20px;
+}
+.text-widget-content li:before {
+  content: "\f054"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
